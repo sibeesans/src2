@@ -139,7 +139,7 @@ echo ""
 #echo -e "\e[36m╘════════════════════════════════════════════════════╛\033[0m"
 echo -e "\e[36m╒═════════════════════════════════════════════╕\033[0m"
 if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
-echo -e "Version       :\033[1;36m $(cat /opt/.ver) Latest Version\e[0m"
+echo -e "Version       :\033[1;36m V.112 Latest Version\e[0m"
 echo -e "Client Name   : $Name"
 echo -e "Expiry script : $Exp"
 rm -f /home/needupdate > /dev/null 2>&1
