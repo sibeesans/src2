@@ -293,7 +293,7 @@ wget -O v2ray-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all
 wget -O trojan-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/trojan-menu.sh"
 wget -O cek-ws "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cek-ws.sh"
 wget -O about "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/about.sh" 
-wget -O running "https://raw.githubusercontent.com/myridwan/sc/ipuk/update/running.sh"
+wget -O running "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/running.sh"
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
