@@ -180,11 +180,11 @@ if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
     elif [[ $x -eq 10 ]]; then
        add-ssws
     elif [[ $x -eq 11 ]]; then
-       cek-user
+       cek-ws
     elif [[ $x -eq 12 ]]; then
        del-user
     elif [[ $x -eq 13 ]]; then
-       renew-xray
+       renew-ws
     elif [[ $x -eq 14 ]]; then
        add-host
     elif [[ $x -eq 15 ]]; then
@@ -224,13 +224,11 @@ else
     elif [[ $x -eq 10 ]]; then
        add-ssws
     elif [[ $x -eq 11 ]]; then
-       cek-user
+       cek-ws
     elif [[ $x -eq 12 ]]; then
        del-user
     elif [[ $x -eq 13 ]]; then
-       renew-xray
-    elif [[ $x -eq 13 ]]; then
-       renew-xray
+       renew-ws
     elif [[ $x -eq 14 ]]; then
        add-host
     elif [[ $x -eq 15 ]]; then
