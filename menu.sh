@@ -127,6 +127,7 @@ echo -e "\e[36m╘════════════════════�
  [\033[1;36m16\033[0m]  Running Vps 
  [\033[1;36m17\033[0m]  Speedtest
  [\033[1;36m18\033[0m]  Xol Panel Bot
+ [\033[1;36m00\033[0m]  BETA VERSION DRG
  "
 if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
 echo -ne
