@@ -291,7 +291,7 @@ wget -O trial "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/trial.sh"
 wget -O ssh-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/ssh-menu.sh"
 wget -O v2ray-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/v2ray-menu.sh"
 wget -O trojan-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/trojan-menu.sh"
-wget -O cek-ws "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cek-ws.sh"
+wget -O cek-user "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cek-ws.sh"
 wget -O about "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/about.sh" 
 wget -O running "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/running.sh"
 chmod +x usernew
@@ -309,7 +309,7 @@ chmod +x trial
 chmod +x ssh-menu
 chmod +x v2ray-menu
 chmod +x trojan-menu
-chmod +x cek-ws
+chmod +x cek-user
 chmod +x about
 chmod +x running
 cd
