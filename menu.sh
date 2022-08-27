@@ -48,16 +48,9 @@ echo -e " [\033[1;36m01\033[0m] • SSH-WS Manager       [\033[1;36m08\033[0m] �
  [\033[1;36m07\033[0m] • Running All Service  [\033[1;36m14\033[0m] • RESTORE DATA"
 
 echo -e "\e[36m╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕\033[0m"
-if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
-echo -e "Version       :\033[1;36m $(cat /opt/.ver) Latest Version\e[0m"
+echo -e "Version       :\033[1;36m $serverV Latest Version\e[0m"
 echo -e "Client Name   : $Name"
 echo -e "Expiry script : $Exp"
-rm -f /home/needupdate > /dev/null 2>&1
-else
-rm /dev/.permiss > /dev/null 2>&1
-touch /home/needupdate > /dev/null 2>&1
-echo -e "\033[0;33mVersion : $(cat /opt/.ver) Update available to $serverV\e[0m"
-fi
 echo -e "\e[36m╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛\033[0m"
 echo -e ""
 echo -ne "Select menu : "; read x
