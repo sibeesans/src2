@@ -33,7 +33,7 @@ echo -e "\e[36m╒━━━━━━━━━━━━━━━━━━━━�
 echo -e " \E[44;1;39m             ⇱ Status Layanan Service ⇲         \E[0m"
 echo -e "\e[36m╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛\033[0m"
 
- echo -e " [ SSH WebSocket : ON ]     [ XRAY : ON ]      [ NGINX : ON ]"
+ echo -e " [ SSH WebSocket : ON ]   [ XRAY : ON ]    [ NGINX : ON ]"
 
 echo -e "\e[36m╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕\033[0m"
 echo -e " \E[44;1;39m               ⇱ Status Layanan VPS ⇲           \E[0m"
@@ -54,88 +54,60 @@ echo -e "Expiry script : $Exp"
 echo -e "\e[36m╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛\033[0m"
 echo -e ""
 echo -ne "Select menu : "; read x
-if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
-    if [[ $x -eq 1 ]]; then
-       ssh-menu
-    elif [[ $x -eq 2 ]]; then
-       v2ray-menu
-    elif [[ $x -eq 3 ]]; then
-       trojan-menu
-    elif [[ $x -eq 4 ]]; then
-       ssgrpc-menu
-    elif [[ $x -eq 5 ]]; then
-       add-host
-    elif [[ $x -eq 6 ]]; then
-       running
-    elif [[ $x -eq 7 ]]; then
-       about
-    elif [[ $x -eq 8 ]]; then
-       crtv2ray
-    elif [[ $x -eq 9 ]]; then
-       speedtest
-    elif [[ $x -eq 10 ]]; then
-       about
-    elif [[ $x -eq 11 ]]; then
-       about
-    elif [[ $x -eq 12 ]]; then
-       about
-    elif [[ $x -eq 13 ]]; then
-       about
-    elif [[ $x -eq 14 ]]; then
-       about
-    elif [[ $x -eq 15 ]]; then
-       about
-    elif [[ $x -eq 16 ]]; then
-       about
-    elif [[ $x -eq 17 ]]; then
-       about
-     elif [[ $x -eq 18 ]]; then
-       about
-    else
-       menu
-    fi
-else
-    if [[ $x -eq 69 ]]; then
-       wget -q -O /usr/bin/update-script "https://raw.githubusercontent.com/bokir-tampan/biji/main/dll/system/update-script.sh" && chmod +x /usr/bin/update-script
-       screen -S upds update-script
-       menu
-    elif [[ $x -eq 1 ]]; then
-       ssh-menu
-    elif [[ $x -eq 2 ]]; then
-       v2ray-menu
-    elif [[ $x -eq 3 ]]; then
-       trojan-menu
-    elif [[ $x -eq 4 ]]; then
-       ssgrpc-menu
-    elif [[ $x -eq 5 ]]; then
-       add-host
-    elif [[ $x -eq 6 ]]; then
-       running
-    elif [[ $x -eq 7 ]]; then
-       about
-    elif [[ $x -eq 8 ]]; then
-       crtv2ray
-    elif [[ $x -eq 9 ]]; then
-       speedtest
-    elif [[ $x -eq 10 ]]; then
-       about
-    elif [[ $x -eq 11 ]]; then
-       about
-    elif [[ $x -eq 12 ]]; then
-       about
-    elif [[ $x -eq 13 ]]; then
-       about
-    elif [[ $x -eq 14 ]]; then
-       about
-    elif [[ $x -eq 15 ]]; then
-       about
-    elif [[ $x -eq 16 ]]; then
-       about
-    elif [[ $x -eq 17 ]]; then
-       about
-     elif [[ $x -eq 18 ]]; then
-       about
-    else
-       menu
-    fi
-fi
+
+case "$x" in 
+   1 | 01)
+   clear
+   ssh-menu
+   break
+   ;;
+   2 | 02)
+   clear
+   v2ray-menu
+   break
+   ;;
+   3 | 03)
+   clear
+   trojan-menu
+   break
+   ;;
+   4 | 04)
+   clear
+   ssgrpc-menu
+   break
+   ;;
+   5 | 05)
+   clear
+   add-host
+   break
+   ;;
+   6 | 06)
+   clear
+   running
+   break
+   ;;
+   7 | 07)
+   clear
+   about
+   break
+   ;;
+   8 | 08)
+   clear
+   crtv2ray
+   break
+   ;;
+   9 | 09)
+   clear
+   speedtest
+   break
+   ;;
+   0 | 00)
+   clear
+   menu
+   break
+   ;;
+   *)
+   clear
+esac
+done
+#fim
