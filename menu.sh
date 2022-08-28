@@ -119,7 +119,7 @@ add-ssws
 ;;
 11)
 clear
-trgomenu
+banner
 ;;
 12)
 clear
