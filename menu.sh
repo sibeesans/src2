@@ -73,7 +73,7 @@ echo -e " [\033[1;36m01\033[0m] • SSH-WS Manager     [\033[1;36m08\033[0m] •
 echo -e "\e[36m╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕\033[0m"
 echo -e "Version       :\033[1;36m $serverV Latest Version\e[0m"
 echo -e "Client Name   : $Name"
-echo -e "Expiry script : $Exp"
+echo -e "Expiry script : $Exf"
 echo -e "\e[36m╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛\033[0m"
 read -p "Select From Options [ 1 - 13 ] : " menu
 case $menu in
