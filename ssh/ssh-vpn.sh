@@ -285,7 +285,7 @@ wget -O add-host "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/add-ho
 wget -O speedtest "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/speedtest_cli.py"
 wget -O xp "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/xp.sh"
 wget -O asu "https://raw.githubusercontent.com/myridwan/src/ipuk/asu.sh"
-wget -O menu "https://raw.githubusercontent.com/myridwan/src/ipuk/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/myridwan/sc/ipuk/update/menu.sh"
 wget -O sshws "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/sshws.sh"
 wget -O trial "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/trial.sh"
 wget -O ssh-menu "https://raw.githubusercontent.com/myridwan/vip/ipuk/menu_all/ssh-menu.sh"
