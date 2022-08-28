@@ -66,7 +66,7 @@ echo -e "\e[36m╘━━━━━━━━━━━━━━━━━━━━�
 echo -e " [\033[1;36m01\033[0m] • SSH-WS Manager    [\033[1;36m08\033[0m] • Info Pembuat
  [\033[1;36m02\033[0m] • Vmess Manager     [\033[1;36m09\033[0m] • Speedtest
  [\033[1;36m03\033[0m] • Trojan Manager    [\033[1;36m10\033[0m] • Add SSWS
- [\033[1;36m04\033[0m] • SS Manager        [\033[1;36m11\033[0m] • Add GBT
+ [\033[1;36m04\033[0m] • SS Manager        [\033[1;36m11\033[0m] • ganti Banner
  [\033[1;36m05\033[0m] • Add Host          [\033[1;36m12\033[0m] • Cek Bandwith
  [\033[1;36m06\033[0m] • Running All       [\033[1;36m13\033[0m] • BACKUP
  [\033[1;36m07\033[0m] • Renew Cert        [\033[1;36m14\033[0m] • RESTORE DATA"
