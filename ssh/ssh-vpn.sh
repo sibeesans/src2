@@ -296,6 +296,7 @@ wget -O cek-ws "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/cek-ws.
 wget -O about "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/about.sh" 
 wget -O running "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/running.sh"
 wget -O banner "https://raw.githubusercontent.com/myridwan/src/ipuk/banner.sh"
+wget -O banner "https://raw.githubusercontent.com/myridwan/src/ipuk/xray/del-tr.sh"
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
@@ -316,6 +317,7 @@ chmod +x cek-ws
 chmod +x about
 chmod +x running
 chmod +x banner
+chmod +x del-tr
 cd
 
 
