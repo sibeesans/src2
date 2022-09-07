@@ -37,13 +37,13 @@ clear
 	tram=$( free -m | awk 'NR==2 {print $2}' )
 	swap=$( free -m | awk 'NR==4 {print $2}' )
 	up=$(uptime|awk '{ $1=$2=$(NF-6)=$(NF-5)=$(NF-4)=$(NF-3)=$(NF-2)=$(NF-1)=$NF=""; print }')
-serverV=$( curl -sS https://raw.githubusercontent.com/myridwan/src/ipuk/versi )
-Exf=$( curl -sS https://raw.githubusercontent.com/myridwan/src/ipuk/exfired )
-Name=$( curl -sS https://raw.githubusercontent.com/myridwan/src/ipuk/name )
+serverV=$( curl -sS https://raw.githubusercontent.com/sibeesans/src/ipuk/versi )
+Exf=$( curl -sS https://raw.githubusercontent.com/sibeesans/src/ipuk/exfired )
+Name=$( curl -sS https://raw.githubusercontent.com/sibeesans/src/ipuk/name )
 # =========================================
 echo -e ""
 echo -e "\e[36m╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕\033[0m"
-echo -e " \E[44;1;39m        ⇱ AutoScript By Ridwan Project ⇲        \E[0m"
+echo -e " \E[44;1;39m        ⇱ AutoScript By BgVpn ⇲        \E[0m"
 echo -e " \E[44;1;39m            ⇱ Informasi VPS SERVER ⇲            \E[0m"
 echo -e "\e[36m╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛\033[0m"
 echo -e " ⚙️ Cpu Model       : $cname"          
